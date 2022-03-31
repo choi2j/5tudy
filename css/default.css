@@ -8,11 +8,6 @@
     color: black;
 }
 
-p {
-    display: flex;
-    width: fit-content;
-}
-
 
 /*header*/
 
@@ -57,10 +52,15 @@ nav {
     font-weight: 600;
     height: 15em;
     width: 100%;
-    background-position: center center;
+    background-position: center 55%;
     background-size: cover;
     align-items: center;
     justify-content: center;
+}
+
+.banner p {
+    font-size: 25px;
+    font-weight: 600;
 }
 
 section {
@@ -77,12 +77,38 @@ section {
     justify-content: left;
 }
 
+.blank {
+    height: 500px;
+}
+
 
 /*footer*/
 
 footer {
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    background-color: #ddd;
+}
+
+footer .project {
+    width: fit-content;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+footer .name {
+    width: fit-content;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+footer .contact {
+    width: fit-content;
+    font-size: 0.4em;
+    font-weight: 300;
 }
