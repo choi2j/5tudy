@@ -36,6 +36,7 @@ nav {
     padding-left: 0.5em;
     padding-right: 0.5em;
     color: grey;
+    transition: all 0.3s;
 }
 
 .nav-button:hover {
@@ -78,7 +79,7 @@ section {
 }
 
 .blank {
-    height: 500px;
+    height: 200px;
 }
 
 

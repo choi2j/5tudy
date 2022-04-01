@@ -14,7 +14,7 @@ section {
     height: 100%;
     width: 100%;
     display: flex;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/img/index.webP");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/index.webP");
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -32,13 +32,16 @@ section {
     height: fit-content;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #ac8bff;
+}
+
+span {
+    color: #ffd631;
 }
 
 .intro p {
     margin-top: 2px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.5px;
     color: white;
 }
@@ -58,6 +61,7 @@ section {
 }
 
 .intro a:hover {
-    background: white;
-    color: black;
+    background: rgba(255, 255, 255, 0.5);
+    border: rgba(255, 255, 255, 0.5) 1px solid;
+    color: #ffd631;
 }
