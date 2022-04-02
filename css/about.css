@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: left;
     font-size: 30px;
-    width: 27em;
+    width: 25em;
     padding: 5em 0;
     margin: 5em 0;
     border-top: black 0.8px solid;
@@ -34,7 +34,7 @@
 .content {
     display: flex;
     flex-direction: column;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 .content .title {
