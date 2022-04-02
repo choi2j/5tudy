@@ -51,7 +51,7 @@ nav {
 
 .banner {
     display: flex;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
     height: 15em;
     width: 100%;
@@ -62,7 +62,7 @@ nav {
 }
 
 .banner p {
-    font-size: 25px;
+    font-size: 0.8em;
     font-weight: 800;
     color: white;
 }
@@ -106,13 +106,14 @@ footer .name {
 
 footer .contact {
     width: fit-content;
-    font-size: 0.4em;
+    font-size: 0.5em;
     font-weight: 300;
 }
 
 @media screen and (max-width: 1200px) {
     head,
-    nav {
+    nav,
+    .banner {
         font-size: 24px;
     }
     footer {
@@ -122,7 +123,8 @@ footer .contact {
 
 @media screen and (max-width: 1000px) {
     head,
-    nav {
+    nav,
+    .banner {
         font-size: 22px;
     }
     footer {
@@ -132,7 +134,8 @@ footer .contact {
 
 @media screen and (max-width: 700px) {
     head,
-    nav {
+    nav,
+    .banner {
         font-size: 21px;
     }
     footer {
@@ -142,7 +145,8 @@ footer .contact {
 
 @media screen and (max-width: 400px) {
     head,
-    nav {
+    nav,
+    .banner {
         font-size: 20px;
     }
     footer {
