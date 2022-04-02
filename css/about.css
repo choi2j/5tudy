@@ -1,2 +1,72 @@
 @charset "utf-8";
 @import url('/fonts/pretendard.css');
+.container {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 30px;
+    width: 27em;
+    padding: 5em 0;
+    margin: 5em 0;
+    border-top: black 0.8px solid;
+    border-bottom: black 0.8px solid;
+    transition: all 0.5s;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .title {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.main .subtitle {
+    font-size: 0.5em;
+    font-weight: 300;
+    padding-left: 0.3em;
+    border-left: black 0.8px solid;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+}
+
+.content .title {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.content .description {
+    font-size: 0.55em;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        font-size: 12px;
+    }
+}

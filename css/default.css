@@ -72,15 +72,8 @@ section {
     align-items: center;
 }
 
-.container {
-    display: flex;
-    width: fit-content;
-    flex-direction: row;
-    justify-content: left;
-}
-
 .blank {
-    height: 200px;
+    height: 5em;
 }
 
 
