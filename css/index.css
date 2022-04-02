@@ -23,7 +23,7 @@ section {
 
 .intro {
     display: flex;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 900;
     border-left: 2px solid white;
     padding-left: 1em;
@@ -35,20 +35,16 @@ section {
     padding-bottom: 20px;
 }
 
-span {
-    color: #efc311;
-}
-
 .intro p {
-    margin-top: 2px;
-    font-size: 0.6em;
+    margin-top: 0.1em;
+    font-size: 0.5em;
     font-weight: 400;
     letter-spacing: 0.5px;
     color: white;
 }
 
 .intro a {
-    font-size: 0.6em;
+    font-size: 0.45em;
     font-weight: 600;
     cursor: pointer;
     border: 1px solid white;
@@ -57,13 +53,14 @@ span {
     background: transparent;
     width: fit-content;
     height: fit-content;
+    margin-top: 1em;
     color: white;
     transition: all 0.3s;
 }
 
 .intro a:hover {
     background: white;
-    color: #efc311;
+    color: black;
 }
 
 @media screen and (max-width: 1200px) {
